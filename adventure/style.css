@@ -1,0 +1,49 @@
+.app{
+	height: 400px;
+	width:369px;
+	background-color: rgb(100,178,85);
+}
+
+button, p{
+	background-color: transparent;
+	border-style: none;
+	color:rgb(236,235,234);
+	font-size: 25px;
+	border-right:1px solid rgb(134,195,124);
+	border-bottom: 1px solid rgb(134,195,124);
+	margin-left:-5px;
+}
+
+p{
+	height:79px;
+	width:274px;
+	line-height: 79px;
+	text-align: right;
+	display: inline-block;
+	margin: 0;
+	float:right;
+
+}
+
+button{
+	height:80px;
+	width:93px;
+}
+
+button:focus{
+	outline:none;
+}
+
+/*input:focus{
+	outline:none;
+}*/
+
+#add, #subtract, #multiply, #divide{
+	background-color: rgb(131,193,120);
+	color: rgb(78,116,71);
+	border-bottom: 1px solid rgb(169,212,163);
+}
+
+#clear, #seven, #four, #one, #zero {
+	margin-left: 0px
+}
